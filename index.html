@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kairo's Classroom</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#080b12;color:#fff}
+header{height:76px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #252a38;background:#0a0d14}
+.logo{font-size:24px;font-weight:900;letter-spacing:2px}.logo span{color:#776cff}
+nav a{color:#aeb5c6;text-decoration:none;margin-left:22px;font-size:14px}
+main{max-width:1100px;margin:auto;padding:55px 24px}
+.hero{padding:48px;border:1px solid #2a3042;border-radius:24px;background:linear-gradient(135deg,#171b29,#10131c)}
+.hero small{color:#8d84ff;font-weight:800;letter-spacing:1px}.hero h1{font-size:48px;margin:10px 0}.hero p{color:#adb4c5;max-width:650px;line-height:1.6}
+h2{margin-top:45px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:#131722;border:1px solid #2a3041;border-radius:18px;padding:24px}
+.icon{font-size:48px}.card p{color:#9fa7b9;min-height:42px;line-height:1.45}
+.btn{display:block;text-align:center;text-decoration:none;padding:13px;border-radius:10px;background:#7569ff;color:white;font-weight:800;margin-top:18px}
+.btn.secondary{background:#202638;border:1px solid #343b51}
+.note{margin-top:35px;color:#727b91;font-size:13px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+ <div class="logo">KAIRO'S <span>CLASSROOM</span></div>
+ <nav><a href="#game">Game</a><a href="#ai">AI Hub</a></nav>
+</header>
+<main>
+<section class="hero">
+ <small>WELCOME TO</small>
+ <h1>Kairo's Classroom</h1>
+ <p>A simple dashboard for a game break and useful AI tools. Cookie Clicker is the featured game, with quick links to popular AI platforms below.</p>
+</section>
+
+<h2 id="game">Featured Game</h2>
+<div class="grid">
+ <div class="card">
+  <div class="icon">🍪</div>
+  <h3>Cookie Clicker</h3>
+  <p>The official browser version of Cookie Clicker by Orteil.</p>
+  <a class="btn" href="https://orteil.dashnet.org/cookieclicker/" target="_blank" rel="noopener noreferrer">Play Cookie Clicker</a>
+ </div>
+</div>
+
+<h2 id="ai">AI Hub</h2>
+<div class="grid">
+ <div class="card"><div class="icon">🤖</div><h3>ChatGPT</h3><p>Writing, explanations, brainstorming, studying, and more.</p><a class="btn secondary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Open ChatGPT</a></div>
+ <div class="card"><div class="icon">✨</div><h3>Gemini</h3><p>Google's AI assistant for questions, writing, and research.</p><a class="btn secondary" href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Open Gemini</a></div>
+ <div class="card"><div class="icon">🧠</div><h3>Claude</h3><p>AI assistant for writing, analysis, and working through ideas.</p><a class="btn secondary" href="https://claude.ai/" target="_blank" rel="noopener noreferrer">Open Claude</a></div>
+</div>
+<div class="note">Kairo's Classroom • Links open the official websites in normal new tabs.</div>
+</main>
+</body>
+</html>
